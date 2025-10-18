@@ -1,0 +1,195 @@
+body{
+    top: 0%; left: 0%;
+    margin: 0; padding: 0;
+    width: 100vw; height: 100vh;
+}
+
+.shij{
+    color: white;
+    background-color: #ff6b88;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.nav{
+    width: 100vw; height: 25vh;
+    background-color: #ff6b88;
+    display: flex; flex-wrap: wrap;
+    justify-content: center; align-items: center;
+    color: white;
+    overflow: hidden;
+
+}
+
+.nav .shij{
+    display: flex; justify-content: center; align-items: center;
+    width: 100%; height: auto;
+    background-color: #ff6b88;
+}
+.nav video{
+    width: 100%; height: 100%;
+    object-fit: cover;
+    /* background-color: blueviolet; */
+
+}
+
+.yanhuazz{
+    width: 100%; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: #b1b9de8f;
+    backdrop-filter: blur(1px);
+    display: none;
+    z-index: 1;
+}
+
+.yanhuatc{
+    width: 60%; height: 10%;
+    position: fixed;
+    background-color: rgba(177, 185, 222, 0.904);
+    top: 8%; margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    border-radius: 1vh;
+    display: flex; justify-content: center; align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    box-shadow: #ffffff 0px 0px 12px 0px;
+}
+.yanhua1{
+    width: 100%; height: 20%;
+    display: flex; justify-content: center; align-items: center;
+    /* background-color: rosybrown; */
+    font-size: 150%;
+}
+
+.yanhuax{
+    width: 100%; height: auto;
+    display: flex; justify-content: space-evenly; align-items: center;
+    /* background-color: aqua; */
+}
+.yanhua2{
+    width: 45%; height: 25%;
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 1vh;
+    background-color: #f87689;
+    box-shadow: #ff6b88 1px 1px 5px 2px;
+}
+.yanhua3{
+    width: 45%; height: 25%;
+    display: flex; justify-content: center; align-items: center;
+    background-color: #f87689;
+    border-radius: 1vh;
+    box-shadow: #ff6b88 1px 1px 5px 2px;
+}
+
+.lailgif{
+    position: fixed;
+    margin-top: 50%; margin-left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1;
+}
+
+.shoudgif {
+    position: fixed;
+    width: 50%; 
+    left: 50%; top: 23%;
+    transform: translateX(-50%);
+    display: none; justify-content: center; align-items: center;
+    z-index: 1;
+}
+.navx{
+    width: 100%; height: 6%;
+    background-color: #ff5078;
+    color: white;
+    display: flex; justify-content: space-evenly; align-items: center;
+}
+.navs{
+    width: 20%; height: 50%;
+    background-color: #f7be99;
+    border-radius: 1vh;
+    display: flex; justify-content: center; align-items: center;
+    box-shadow: #febecd 1px 1px 5px 2px;
+}
+
+/* 项目地图 */
+.dituzz{
+    z-index: 1;
+    width: 100%; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    overflow: hidden;
+    background-color: #b1b9de8f;
+    backdrop-filter: blur(1px);
+    display: none;
+     justify-content: center; align-items: center;
+}
+.ditux{
+    background-color: tomato;
+    display: flex; justify-content: center; align-items: center;
+}
+.ditux img{
+    width: 100%; 
+    object-fit: contain;
+
+}
+
+/* 迎海酒店 */
+.jiudianzz{
+    z-index: 1;
+    width: 100%; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    overflow: hidden;
+    background-color: #b1b9de8f;
+    backdrop-filter: blur(1px);
+    display: none; flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.jiudianx{
+    margin-top: 30%;
+    width: 100%;
+    background-color: rgb(171, 130, 238);
+    /* display: block; */
+    overflow: hidden;
+}
+.jiudianx img{
+    width: 100%; height: 100%;
+    object-fit: cover;
+
+}
+.jiudiantext{
+    margin-top: 3%;
+    width: 100%;
+    background-color: #b1b9de; color: white;
+
+}
+
+/* 有轨电车 */
+.dianchezz{
+    z-index: 1;
+    width: 100%; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    overflow: hidden;
+    background-color: #b1b9de8f;
+    backdrop-filter: blur(1px);
+    display: none;
+     justify-content: center; align-items: center;
+}
+/* .swiper .dianchex{
+    display: flex; justify-content: center; align-items: center;
+} */
+
+
+.dianche1{
+    width: 100%;
+    object-fit: cover;
+}
+
+.dianche2{
+    width: 100%; height: 100%;
+    object-fit: cover;
+
+}
