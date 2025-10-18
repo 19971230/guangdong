@@ -14,7 +14,7 @@
     <div class="nav">
         <!-- <div class="shij">时间：2025年10月20日 广东</div> -->
 
-        <video id="yanhua" src="video/yanhua2.mp4" autoplay muted></video>
+        <video id="yanhua" src="video/yanhua2.mp4" autoplay muted playsinline></video>
     </div>
     <div id="yanhuazz" class="yanhuazz">
         <div class="yanhuatc">
@@ -58,19 +58,22 @@
         <div class="swiper dianchex">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img id="dianche1" class="dianche1" src="img\序列 01.00_00_04_01.Still001.png" alt="">
+                    <div class="swiper-zoom-container">
+                        <img id="dianche1" class="dianche1" src="img\序列 01.00_00_04_01.Still001.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img id="dianche2" class="dianche2" src="img\序列 01.00_00_07_08.Still002.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img id="dianche2" class="dianche2" src="img\序列 01.00_00_07_08.Still002.png" alt="">
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
 
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="guangdong.js"></script>
-   
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="guangdong.js"></script>
+
 </body>
 
 </html>
