@@ -37,10 +37,17 @@ yanhuazz.onclick = yanhuan;
 
 
 // 项目地图
+const ditux = new Swiper(".ditux",{
+    zoom:true,
+    pagination:{
+        el:".swiper-pagination",
+    }
+})
 let nav1 = document.getElementById("nav1");
 let dituzz = document.getElementById("dituzz");
 nav1.onclick = function(){
     dituzz.style.display = "flex";
+    ditux.slideTo(0);
 }
 dituzz.onclick = function(e){
     if(e.target === dituzz){
@@ -72,6 +79,45 @@ jiudianzz.onclick = function(e){
         jiudianzz.style.display = "none";
     }
 }
+
+// 巴士img
+const bashix = new Swiper(".bashix",{
+    zoom:true,
+})
+
+// 巴士时刻表
+let bashi = document.getElementById("bashi");
+let bashizz = document.getElementById("bashizz");
+let chengzuo = document.getElementById("chengzuo");
+bashi.onclick = function(e){
+    if(e.target === chengzuo){
+        bashizz.style.display = "none";
+    }
+    else{
+        bashizz.style.display = "flex";
+    }
+}
+bashizz.onclick = function(e){
+    if(e.target === bashizz){
+        bashizz.style.display = "none"
+    }
+}
+
+// 广州地图
+const guangzhoux = new Swiper(".guangzhoux",{
+    zoom:true,
+})
+let nav3 = document.getElementById("nav3");
+let guangzhouzz = document.getElementById("guangzhouzz");
+nav3.onclick = function(){
+    guangzhouzz.style.display = "flex";
+}
+guangzhouzz.onclick = function(e){
+    if(e.target === guangzhouzz){
+        guangzhouzz.style.display = "none";
+    }
+}
+
 
 // 有轨电车
 const dianchex = new Swiper(".dianchex",{

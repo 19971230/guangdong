@@ -2,6 +2,12 @@ body{
     top: 0%; left: 0%;
     margin: 0; padding: 0;
     width: 100vw; height: 100vh;
+    overflow: hidden;
+    background-image: url("img/微信图片_20251018194845_98_291.jpg");
+    background-size: 150%;
+    background-position-y: 300000%;
+    background-position-x: 50%;
+    backdrop-filter: blur(0.2vh);
 }
 
 .shij{
@@ -125,14 +131,17 @@ body{
      justify-content: center; align-items: center;
 }
 .ditux{
-    background-color: tomato;
-    display: flex; justify-content: center; align-items: center;
+    background-color: #f87689;
+    color: white;
+    text-align: center;
+    /* display: flex; justify-content: center; align-items: center; */
 }
-.ditux img{
-    width: 100%; 
-    object-fit: contain;
+a{
+    color: #b1b9de;
+    border-radius: 1vh;
+    margin: 1vh;
+}
 
-}
 
 /* 迎海酒店 */
 .jiudianzz{
@@ -145,7 +154,6 @@ body{
     backdrop-filter: blur(1px);
     display: none; flex-wrap: wrap;
     flex-direction: column;
-
 }
 .jiudianx{
     margin-top: 30%;
@@ -163,7 +171,38 @@ body{
     margin-top: 3%;
     width: 100%;
     background-color: #b1b9de; color: white;
+    margin-left: 1vh;
+}
 
+.bashi{
+    display: flex; justify-content: center; align-items: center;
+    color: #b1b9de;
+    background-color: #ff6b88;
+}
+.bashizz{
+    z-index: 1;
+    width: 100%; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    overflow: hidden;
+    background-color: #b1b9de8f;
+    backdrop-filter: blur(1px);
+    display: none; justify-content: center; align-items: center;
+}
+.bashix{
+    width: 100%; height: 80%;
+}
+
+
+.guangzhouzz{
+    z-index: 1;
+    width: 100%; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    overflow: hidden;
+    background-color: #b1b9de8f;
+    backdrop-filter: blur(1px);
+    display: none; justify-content: center; align-items: center;
 }
 
 /* 有轨电车 */
@@ -178,18 +217,45 @@ body{
     display: none;
      justify-content: center; align-items: center;
 }
-/* .swiper .dianchex{
+
+/* 导航下栏内容 */
+.contentx{
+    width: 100%; height: 15%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex; justify-content: space-around; align-items: center;
+    /* background-color: #f7be99; */
+}
+.content1{
+    color: white;
+    width: 100%; height: 100%;
+    background-color: #b1b9de81;
     display: flex; justify-content: center; align-items: center;
-} */
-
-
-.dianche1{
-    width: 100%;
-    object-fit: cover;
+}
+.content1 a{
+    color: white;
 }
 
-.dianche2{
-    width: 100%; height: 100%;
-    object-fit: cover;
-
+.ending{
+    width: 100%; height: 7%;
+    background-color: #b1b9de81;
+    color: rgb(255, 255, 255);
+    display: flex; justify-content: center; align-items: center;
+}
+.ending1{
+    width: 33%;
+    display: flex; justify-content: center; align-items: center;
+    background-color: #f08843;
+}
+.ending2{
+    width: 33%;
+    display: flex; justify-content: center; align-items: center;
+    background-color: rgb(177, 103, 247);
+}
+.ending3{
+    width: 33%;
+    display: flex; justify-content: center; align-items: center;
+    background-color: rgb(59, 207, 54);
 }
